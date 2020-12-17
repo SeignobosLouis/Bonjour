@@ -1,4 +1,5 @@
 <p>
+            <form class="questionnaire" action="mailto:ectyvolt@etu.univ-amu.fr?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
             <label id="prenom">Prénom :</label><input class="prenom" type="text" required name="prenom">
             <label id="nom">Nom :</label><input class="nom" type="text" required name="nom"><br/>
             <textarea name="impression" rows="15" cols="100" placeholder="Expliquez moi ce qui ne va pas et ce que je devrais améliorer :"></textarea><br/>
