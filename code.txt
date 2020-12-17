@@ -1,0 +1,15 @@
+<p>
+            <label id="prenom">Prénom :</label><input class="prenom" type="text" required name="prenom">
+            <label id="nom">Nom :</label><input class="nom" type="text" required name="nom"><br/>
+            <textarea name="impression" rows="15" cols="100" placeholder="Expliquez moi ce qui ne va pas et ce que je devrais améliorer :"></textarea><br/>
+            <label id="note">Donnez une note pour mon site :</label><input class="notation" type="range" required list="tickmarks" name="notation" min ="0" max="5" step="1">
+            <datalist id="tickmarks">
+                  <option value="0" label="0%"> </option>
+                  <option value="1">
+                  <option value="2">
+                  <option value="3">
+                  <option value="4">
+                  <option value="5" label="100%">
+            </datalist> <br/>
+            <input type="submit" value="Envoyer"/>
+        </p>
